@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <div class="form-group">
+            <input type="text" id="username" placeholder="Enter your username">
+        </div>
+        <div class="form-group">
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <button class="login-btn" onclick="login()">Login</button>
+        <p class="signup-link">Don't have an account? <a href="#" onclick="showSignup()">Sign up</a></p>
+        <div class="error" id="error"></div>
+    </div>
+
+    <div class="signup-container" id="signup-container" style="display: none;">
+        <h2>Sign Up</h2>
+        <div class="form-group">
+            <label for="signup-username">Username</label>
+            <input type="text" id="signup-username" placeholder="Choose a username">
+        </div>
+        <div class="form-group">
+            <label for="signup-password">Password</label>
+            <input type="password" id="signup-password" placeholder="Create a password">
+        </div>
+        <button class="signup-btn" onclick="signup()">Sign Up</button>
+        <p class="login-link">Already have an account? <a href="#" onclick="showLogin()">Log in</a></p>
+        <div class="error" id="signup-error"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

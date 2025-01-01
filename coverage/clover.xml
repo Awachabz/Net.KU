@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1733397061821" clover="3.2.0">
+  <project timestamp="1733397061821" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8" elements="26" coveredelements="26" complexity="0" loc="16" ncloc="16" packages="1" files="3" classes="3"/>
+    <file name="calculator.js" path="C:\Users\awaha\OneDrive\Dokumen\Semester 5\Tugas Bang Gilbert\Belajar_Code-coverage\calculator.js">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+    </file>
+    <file name="fetchData.js" path="C:\Users\awaha\OneDrive\Dokumen\Semester 5\Tugas Bang Gilbert\Belajar_Code-coverage\fetchData.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+    </file>
+    <file name="stringUtils.js" path="C:\Users\awaha\OneDrive\Dokumen\Semester 5\Tugas Bang Gilbert\Belajar_Code-coverage\stringUtils.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
