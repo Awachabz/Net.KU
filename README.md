@@ -1,3 +1,2 @@
 # Net.KU
 
-# Daerobi
